@@ -1,34 +1,36 @@
-import React from 'react';
-import { Users, Target, Eye, Award, Mail, Phone, MapPin, Code, Smartphone, Palette, Globe, Zap, MessageCircle, Send } from 'lucide-react';
-import gadhleImage from './gadhle.JPG'; // <-- Isticmaal .JPG (capital) sida file-ka dhabta ah
+import { Users, Target, Eye, Award, Mail,MapPin, Zap, MessageCircle, Send } from 'lucide-react';
+import gadhleImage from './gadhle.jpg'; // ama magaca saxda ah ee sawirka
+import maanImage from './maan.jpg'; // ama magaca saxda ah ee sawirka
+import muuseImage from './muuse.jpg'; // ama magaca saxda ah ee sawirka
+import dogoxImage from './dogox.jpg'; // ama magaca saxda ah ee sawirka
 
 const About = () => {
   const teamMembers = [
     {
       name: 'Ahmed Gadhle',
       role: 'Founder & CEO',
-      image: gadhleImage, // <-- Use imported image here
+      image: gadhleImage,
       expertise: 'Full-Stack Development, Business Strategy',
       gradient: 'from-blue-600 to-indigo-700'
     },
     {
       name: 'Amina Hassan',
       role: 'Creative Director',
-      image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=800',
+       image: maanImage,
       expertise: 'UI/UX Design, Brand Development',
       gradient: 'from-purple-600 to-pink-700'
     },
     {
       name: 'Mohamed Ali',
       role: 'Lead Developer',
-      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: dogoxImage,
       expertise: 'React, Node.js, Cloud Architecture',
       gradient: 'from-emerald-600 to-teal-700'
     },
     {
-      name: 'Fatima Omar',
+      name: 'Maftouh Omar',
       role: 'Mobile App Specialist',
-      image: 'https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: muuseImage,
       expertise: 'React Native, Flutter, iOS/Android',
       gradient: 'from-orange-600 to-red-700'
     }
